@@ -6,12 +6,14 @@ export default function Header() {
     <div className="bg-black w-full flex flex-col lg:flex-row justify-between items-center gap-3 px-4 sm:px-8 lg:px-16 xl:px-32 py-4">
       {/* Logo y título */}
       <div className='flex items-center gap-2'>
-        <img
+        <Link to="/home"> <img
           className="h-16 lg:h-20 hover:cursor-pointer"
           src={Logo}
           alt="Logo Hotel WWE"
-        />
+        /></Link>
+
         <h1 className="text-2xl lg:text-3xl text-red-800 font-black">Hotel WWE</h1>
+        <button>Reserva una Habitacion (KO)</button>
       </div>
 
       {/* Enlaces de navegación */}
