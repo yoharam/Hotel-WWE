@@ -1,6 +1,6 @@
 import Logo from '../images/Logo.png'
 import { Link } from "react-router-dom"
-
+import KO from "../images/KO_fin_fondo.png"
 export default function Header() {
   return (
     <div className="bg-black w-full flex flex-col lg:flex-row justify-between items-center gap-4 px-4 sm:px-8 lg:px-16 xl:px-32 py-4">
@@ -29,10 +29,12 @@ export default function Header() {
           Contacto
         </Link>
       </nav>
+      <div></div>
 
       {/* Botón de reserva */}
-      <Link to="/reservar" className="bg-red-800 text-white px-6 py-2 rounded font-bold hover:bg-red-700 transition-colors">
-        Reservar Ahora
+      <Link to="/reservar" className="bg-red-800 text-white px-6 py-2 rounded font-bold hover:bg-red-700 w-20 transition-colors">
+        <img src={KO} alt="Reservar Ahora" />
+        
       </Link>
     </div>
   )
