@@ -28,17 +28,17 @@ function Room() {
             <div className="relative h-72">
               <img src={Room1} alt="Standard Room" className="w-full h-full object-cover" />
             </div>
-            <div className="p-7">
+            <div className="p-7 ">
               <h3 className="mb-4 font-bold text-2xl text-gray-900">SmackDown Room</h3>
               <p className="text-gray-600 mb-6 text-base leading-relaxed">
                 Habitacion smack down azul
               </p>
-              <div className="w-full px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
+              <div className="w-full px-8 py-4 bg-red-800 text-white text-center rounded-xl font-bold text-lg">
                 Reserva ahora
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow">
+          <div className="bg-white rounded-[8px] overflow-hi  dden border border-gray-100 shadow">
             <div className="relative h-72">
               <img src={Room2} alt="Deluxe Room" className="w-full h-full object-cover" />
         
@@ -48,8 +48,8 @@ function Room() {
               <p className="text-gray-600 mb-6 text-base leading-relaxed">
                 Habitacion maint evente superstar
               </p>
-              <div className="w-full px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
-                Reserve Room
+              <div className="w-full px-8 py-4 bg-red-800 text-white text-center rounded-xl font-bold text-lg">
+                Reserva Ahora
               </div>
             </div>
           </div>
@@ -62,8 +62,8 @@ function Room() {
               <p className="text-gray-600 mb-6 text-base leading-relaxed">
                 American Nightmare cody rhodes
               </p>
-              <div className="w-full px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
-                Reserve Room
+              <div className="w-full  text-center px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
+                Reserva Ahora
               </div>
             </div>
           </div>
@@ -76,8 +76,8 @@ function Room() {
               <p className="text-gray-600 mb-6 text-base leading-relaxed">
                 
               </p>
-              <div className="w-full px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
-                Reserve Room
+              <div className="w-full px-8 py-4 text-center bg-red-800 text-white rounded-xl font-bold text-lg">
+                Reserva Ahora
               </div>
             </div>
           </div>
@@ -90,8 +90,8 @@ function Room() {
               <p className="text-gray-600 mb-6 text-base leading-relaxed">
                 
               </p>
-              <div className="w-full px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
-                Reserve Room
+              <div className="w-full text-center px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
+                Reserva Ahora
               </div>
             </div>
           </div>
@@ -104,8 +104,8 @@ function Room() {
               <p className="text-gray-600 mb-6 text-base leading-relaxed">
                 
               </p>
-              <div className="w-full px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
-                Reserve Room
+              <div className="w-full text-center px-8 py-4 bg-red-800 text-white rounded-xl font-bold text-lg">
+                Reserva Ahora
               </div>
             </div>
           </div>
