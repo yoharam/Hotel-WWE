@@ -1,1 +1,22 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/Rawhide\ Raw\ 2012.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'MyFont', sans-serif;
+}
+
+.bg-wrestlers{
+    background-image: url('../src/assets/images/bg-stars.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio{
+  background-image: url('../src/assets/images/Luchadores.jpeg');
+}
