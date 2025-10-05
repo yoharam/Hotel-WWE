@@ -17,6 +17,9 @@ export default function Header() {
       
       {/* Enlaces de navegación */}
       <nav className='flex flex-col lg:flex-row gap-4 lg:gap-6 items-center'>
+        <Link to="/home" className='text-white font-bold  hover:text-red-600 transition-colors whitespace-nowrap'>
+          Inicio          
+        </Link>
         <Link to="/habitaciones" className="text-white font-bold hover:text-red-600 transition-colors whitespace-nowrap">
           Habitaciones
         </Link>
