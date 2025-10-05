@@ -32,7 +32,7 @@ export default function Header() {
       <div></div>
 
       {/* Botón de reserva */}
-      <Link to="/reservar" className="bg-red-800 text-white px-6 py-2 rounded font-bold hover:bg-red-700 w-20 transition-colors">
+      <Link to="/reservar" className=" text-white px-6 py-2 rounded font-bold hover:scale-110 w-35 transition-colors">
         <img src={KO} alt="Reservar Ahora" />
         
       </Link>
