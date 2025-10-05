@@ -5,70 +5,70 @@ import Room_Service from "../images/room_service.jpg";
 import Spa from "../images/spa.jpeg";
 import Transporte from "../images/transporte.jpg";
 
-interface Service {
+interface Servicio {
   id: number;
-  name: string;
-  description: string;
-  price: number;
+  nombre: string;
+  descripcion: string;
+  precio: number;
   image: string;
-  duration: string;
+  duracion: string;
 }
 
 export default function Services() {
-  const services: Service[] = [
+  const servicios: Servicio[] = [
     {
       id: 1,
-      name: "Masaje Relajante",
-      description:
+      nombre: "Masaje Relajante",
+      descripcion :
         "Masaje de cuerpo completo para recuperarte después de un día intenso en el ring",
-      price: 850,
+      precio: 850,
       image: Masajista,
-      duration: "60 min",
+      duracion: "60 min",
     },
     {
       id: 2,
-      name: "Comida Gourmet",
-      description:
+      nombre: "Comida Gourmet",
+      descripcion :
         "Menú especial preparado por chefs profesionales con ingredientes premium",
-      price: 450,
+      precio: 450,
       image: Cocinando,
-      duration: "45 min",
+      duracion: "45 min",
     },
     {
       id: 3,
-      name: "Gimnasio Premium",
-      description:
+      nombre: "Gimnasio Premium",
+      descripcion :
         "Acceso al gimnasio de alto rendimiento estilo WWE con equipo profesional",
-      price: 300,
+      precio: 300,
       image: Gym,
-      duration: "2 hrs",
+      duracion: "2 hrs",
     },
     {
       id: 4,
-      name: "Servicio a la Habitación",
-      description:
+      nombre: "Servicio a la Habitación",
+      descripcion :
         "Comida y bebidas entregadas directamente a tu habitación 24/7",
-      price: 200,
+      precio: 200,
       image: Room_Service,
-      duration: "30 min",
+      duracion: "30 min",
     },
     {
       id: 5,
-      name: "Spa Deluxe",
-      description:
+      nombre: "Spa Deluxe",
+      descripcion :
         "Tratamiento completo de spa con jacuzzi y aromaterapia",
-      price: 1200,
+      precio: 1200,
       image: Spa,
-      duration: "90 min",
+      duracion: "90 min",
     },
     {
       id: 6,
-      name: "Transporte VIP",
-      description:
+      nombre: "Transporte VIP",
+      descripcion :
         "Traslado en limusina desde/hacia el aeropuerto con chofer personal",
-      price: 950,
+      precio: 950,
       image: Transporte,
-      duration: "Variable",
+      duracion: "Variable",
     },
   ];
 
@@ -85,25 +85,25 @@ export default function Services() {
       {/* Services Grid */}
       <div className="px-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {services.map((service) => (
+          {servicios.map((servicio) => (
             <div
-              key={service.id}
+              key={servicio.id}
               className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
             >
               <div className="relative h-48 overflow-hidden">
                 <img
-                  src={service.image}
-                  alt={service.name}
+                  src={servicio.image}
+                  alt={servicio.nombre }
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <div className="p-7">
                 <h3 className="mb-2 font-bold text-2xl text-gray-900">
-                  {service.name}
+                  {servicio.nombre}
                 </h3>
                 <p className="text-gray-600 mb-6 text-base leading-relaxed min-h-[72px]">
-                  {service.description}
+                  {servicio.descripcion }
                 </p>
 
                 <div className="flex items-center text-gray-700 mb-6">
@@ -121,7 +121,7 @@ export default function Services() {
                       d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                     />
                   </svg>
-                  <p>{service.duration}</p>
+                  <p>{servicio.duracion}</p>
                 </div>
 
                 <button
@@ -131,7 +131,7 @@ export default function Services() {
                 </button>
 
                 <div className="absolute top-0 right-0 bg-black text-white p-2 rounded-lg m-4">
-                  <span>${service.price} MXN</span>
+                  <span>${servicio.precio} MXN</span>
                 </div>
               </div>
             </div>
