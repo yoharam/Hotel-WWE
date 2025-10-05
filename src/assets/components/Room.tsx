@@ -23,7 +23,6 @@ function Room() {
       </div>
       <div className="px-15">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {/* Room 1 */}
           <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101">
             <div className="relative h-72">
               <img src={Room1} alt="Standard Room" className="w-full h-full object-cover" />
@@ -51,8 +50,6 @@ function Room() {
               <span>$189/night</span>
             </div>
           </div>
-
-          {/* Room 2 */}
           <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101">
             <div className="relative h-72">
               <img src={Room2} alt="Deluxe Room" className="w-full h-full object-cover" />
@@ -80,8 +77,6 @@ function Room() {
               <span>$249/night</span>
             </div>
           </div>
-
-          {/* Room 3 */}
           <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101">
             <div className="relative h-72">
               <img src={Room3} alt="Premium Room" className="w-full h-full object-cover" />
@@ -109,8 +104,6 @@ function Room() {
               <span>$329/night</span>
             </div>
           </div>
-
-          {/* Room 4 */}
           <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101">
             <div className="relative h-72">
               <img src={Room4} alt="Executive Suite" className="w-full h-full object-cover" />
@@ -138,8 +131,6 @@ function Room() {
               <span>$399/night</span>
             </div>
           </div>
-
-          {/* Room 5 */}
           <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101">
             <div className="relative h-72">
               <img src={Room5} alt="Family Suite" className="w-full h-full object-cover" />
@@ -167,8 +158,6 @@ function Room() {
               <span>$499/night</span>
             </div>
           </div>
-
-          {/* Room 6 */}
           <div className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101">
             <div className="relative h-72">
               <img src={Room6} alt="Presidential Suite" className="w-full h-full object-cover" />

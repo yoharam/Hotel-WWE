@@ -25,11 +25,12 @@ function FormContacto() {
                         <input type="text" className='w-full rounded-lg bg-[#f9f7f3] h-10 mb-2' />
                         <label htmlFor="mensaje" className='block mb-2 font-medium'>Mensaje</label>
                         <textarea name="mensaje" className='w-full rounded-lg bg-[#f9f7f3]  mb-5 h-30' id=""></textarea>
-                        <button className='bg-red-800 h-15 rounded-lg text-white font-bold'>Enviar mensaje</button>
+                        <button className='bg-red-800 h-15 rounded-lg text-white font-medium cursor-pointer hover:-translate-y-0.5 hover:scale-101 hover:font-bold'>Enviar mensaje</button>
                     </div>
 
                 </form>
             </div>
+            
         </>
     )
 }
