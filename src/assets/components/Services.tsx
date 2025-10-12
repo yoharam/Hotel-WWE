@@ -90,11 +90,11 @@ export default function Services() {
               key={servicio.id}
               className="bg-white rounded-[8px] overflow-hidden border border-gray-100 shadow relative transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105"
             >
-              <div className="relative h-48 overflow-hidden">
+              <div className="relative h-150 overflow-hidden">
                 <img
                   src={servicio.image}
                   alt={servicio.nombre }
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-fill"
                 />
               </div>
 
